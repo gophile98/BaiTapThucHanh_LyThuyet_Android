@@ -27,10 +27,11 @@
         android:layout_height="50dp">
 
         <TextView
+            android:layout_marginLeft="10dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="So a:"
+            android:text="Số a:"
             android:textSize="20dp" />
         <EditText
             android:layout_weight="3"
@@ -45,21 +46,25 @@
         android:layout_width="match_parent"
         android:layout_height="50dp">
         <TextView
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="So b:"
+            android:text="Số b:"
             android:textSize="20dp"
             />
         <EditText
-            android:layout_weight="3"
             android:id="@+id/sob"
+            android:layout_weight="3"
             android:layout_marginLeft="10dp"
             android:layout_width="0dp"
             android:layout_height="match_parent" />
 
     </LinearLayout>
-    <EditText
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
         android:id="@+id/kq"
         android:layout_width="match_parent"
         android:background="#008000"
@@ -68,9 +73,45 @@
     <Button
         android:id="@+id/btntong"
         android:layout_width="match_parent"
-        android:text="TONG HAI SO"
+        android:text="tổng 2 số"
         android:textSize="20dp"
         android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnhieu"
+        android:layout_width="match_parent"
+        android:text="hiệu 2 số"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:id="@+id/btntich"
+        android:layout_width="match_parent"
+        android:text="tích 2 số"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnthuong"
+        android:layout_width="match_parent"
+        android:text="thương 2 số"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btntucln"
+        android:layout_width="match_parent"
+        android:text="ước chung lớn nhất"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btnthoat"
+        android:layout_width="match_parent"
+        android:text="thoát chương trình"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+
 
 
 
